@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ChatActivity">
+
+
+    <TextView
+        android:id="@+id/textViewChatTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextChatList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextChat"
+        android:layout_below="@+id/textViewChatTitle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editTextChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:ems="10"
+        android:hint="@string/chatPlaceholderChat"
+        android:inputType="textPersonName" />
+</RelativeLayout>

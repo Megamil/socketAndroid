@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChatIO</string>
+
+    <!--LoginActivity-->
+    <string name="homeTitle">15 anos de curso!</string>
+    <string name="homePlaceholderName">Nome</string>
+    <string name="homePlaceholderServer">Servidor Ex. 192.168.10.123:3000</string>
+    <string name="homeButton">BOOM</string>
+
+    <!--ChatActivity-->
+    <string name="chatPlaceholderChat">Digite algo:</string>
+
+    <string-array name="users">
+        <item>Bonitinho</item>
+        <item>Falido</item>
+        <item>Porra Jean</item>
+        <item>Monstro Sagrado</item>
+        <item>BOOM</item>
+        <item>HebeService</item>
+        <item>Sênior</item>
+        <item>Dilma</item>
+        <item>Boa Noite Paulo</item>
+    </string-array>
+
+</resources>
